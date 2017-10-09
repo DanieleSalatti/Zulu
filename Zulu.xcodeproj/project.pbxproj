@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* WHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* WHAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* WorldHoursViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* WorldHoursViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* WorldHoursViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* WorldHoursViewController.m */; };
+		3D49FBF313367D0E00043562 /* WHMoreViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D49FBF213367D0E00043562 /* WHMoreViewController_iPad.xib */; };
+		3DC9F2101351E4C100554661 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DC9F20B1351E4C100554661 /* Icon.png */; };
+		3DC9F2111351E4C100554661 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DC9F20C1351E4C100554661 /* Icon@2x.png */; };
+		3DC9F2121351E4C100554661 /* Zulu_50x50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DC9F20D1351E4C100554661 /* Zulu_50x50.png */; };
+		3DC9F2131351E4C100554661 /* Zulu_72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DC9F20E1351E4C100554661 /* Zulu_72x72.png */; };
+		3DC9F2141351E4C100554661 /* Zulu_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DC9F20F1351E4C100554661 /* Zulu_512x512.png */; };
+		3DC9F21B1351ED2D00554661 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DC9F21A1351ED2D00554661 /* Default.png */; };
+		3DC9F21F1351EFC500554661 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DC9F21E1351EFC500554661 /* Default@2x.png */; };
+		3DC9F2211351EFE500554661 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DC9F2201351EFE500554661 /* Default-Portrait~ipad.png */; };
+		3DC9F2231351EFFC00554661 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DC9F2221351EFFB00554661 /* Default-Landscape~ipad.png */; };
+		3DC9F22B1351F32A00554661 /* libFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC9F22A1351F32A00554661 /* libFlurry.a */; };
+		920CFB661157849C00ABDE44 /* WHMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 920CFB641157849C00ABDE44 /* WHMoreViewController.m */; };
+		920CFB671157849C00ABDE44 /* WHMoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920CFB651157849C00ABDE44 /* WHMoreViewController.xib */; };
+		920D6EA111599C0400A0DE3F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 920D6EA011599C0400A0DE3F /* Reachability.m */; };
+		920D6EC711599D2700A0DE3F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920D6EC611599D2700A0DE3F /* SystemConfiguration.framework */; };
+		928D76D1115714CF00FC57B1 /* WHTimeAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 928D76D0115714CF00FC57B1 /* WHTimeAnnotation.m */; };
+		928D774911571BC600FC57B1 /* WHHourLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 928D774811571BC600FC57B1 /* WHHourLayer.m */; };
+		928D774F11571BEF00FC57B1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928D774E11571BEF00FC57B1 /* QuartzCore.framework */; };
+		928F6FF9115B45F4002075D4 /* WHAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 928F6FF8115B45F4002075D4 /* WHAnnotationView.m */; };
+		928F7073115B4A4E002075D4 /* WHAnnotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 928F7072115B4A4E002075D4 /* WHAnnotationGestureRecognizer.m */; };
+		92A679C31155059400591E0E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A679C21155059400591E0E /* MapKit.framework */; };
+		92B070B2115BD8FF005D47E1 /* closeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 92B070B1115BD8FF005D47E1 /* closeButton.png */; };
+		92B070DF115BDCE6005D47E1 /* arrowButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 92B070DE115BDCE6005D47E1 /* arrowButton.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* WHAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* WHAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Zulu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zulu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* WorldHoursViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorldHoursViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* WorldHoursViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldHoursViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* WorldHoursViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldHoursViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D49FBF213367D0E00043562 /* WHMoreViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WHMoreViewController_iPad.xib; path = Classes/WHMoreViewController_iPad.xib; sourceTree = "<group>"; };
+		3D49FBF5133689B300043562 /* Zulu_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zulu_Prefix.pch; sourceTree = "<group>"; };
+		3D57C6A31330220400155A78 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		3DC9F20B1351E4C100554661 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		3DC9F20C1351E4C100554661 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		3DC9F20D1351E4C100554661 /* Zulu_50x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zulu_50x50.png; sourceTree = "<group>"; };
+		3DC9F20E1351E4C100554661 /* Zulu_72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zulu_72x72.png; sourceTree = "<group>"; };
+		3DC9F20F1351E4C100554661 /* Zulu_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zulu_512x512.png; sourceTree = "<group>"; };
+		3DC9F21A1351ED2D00554661 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3DC9F21E1351EFC500554661 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3DC9F2201351EFE500554661 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		3DC9F2221351EFFB00554661 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		3DC9F2291351F32A00554661 /* FlurryAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAPI.h; sourceTree = "<group>"; };
+		3DC9F22A1351F32A00554661 /* libFlurry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry.a; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Zulu-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Zulu-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		920CFB631157849C00ABDE44 /* WHMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHMoreViewController.h; sourceTree = "<group>"; };
+		920CFB641157849C00ABDE44 /* WHMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHMoreViewController.m; sourceTree = "<group>"; };
+		920CFB651157849C00ABDE44 /* WHMoreViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = WHMoreViewController.xib; path = Classes/WHMoreViewController.xib; sourceTree = "<group>"; };
+		920D6E9F11599C0400A0DE3F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		920D6EA011599C0400A0DE3F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		920D6EC611599D2700A0DE3F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		928D76CF115714CF00FC57B1 /* WHTimeAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHTimeAnnotation.h; sourceTree = "<group>"; };
+		928D76D0115714CF00FC57B1 /* WHTimeAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHTimeAnnotation.m; sourceTree = "<group>"; };
+		928D774711571BC600FC57B1 /* WHHourLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHHourLayer.h; sourceTree = "<group>"; };
+		928D774811571BC600FC57B1 /* WHHourLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHHourLayer.m; sourceTree = "<group>"; };
+		928D774E11571BEF00FC57B1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		928F6FF7115B45F4002075D4 /* WHAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHAnnotationView.h; sourceTree = "<group>"; };
+		928F6FF8115B45F4002075D4 /* WHAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHAnnotationView.m; sourceTree = "<group>"; };
+		928F7071115B4A4E002075D4 /* WHAnnotationGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHAnnotationGestureRecognizer.h; sourceTree = "<group>"; };
+		928F7072115B4A4E002075D4 /* WHAnnotationGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHAnnotationGestureRecognizer.m; sourceTree = "<group>"; };
+		92A679C21155059400591E0E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		92B0706F115BD3BD005D47E1 /* logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logger.h; sourceTree = "<group>"; };
+		92B070B1115BD8FF005D47E1 /* closeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closeButton.png; sourceTree = "<group>"; };
+		92B070DE115BDCE6005D47E1 /* arrowButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowButton.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				92A679C31155059400591E0E /* MapKit.framework in Frameworks */,
+				928D774F11571BEF00FC57B1 /* QuartzCore.framework in Frameworks */,
+				920D6EC711599D2700A0DE3F /* SystemConfiguration.framework in Frameworks */,
+				3DC9F22B1351F32A00554661 /* libFlurry.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* WHAppDelegate.h */,
+				1D3623250D0F684500981E51 /* WHAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* WorldHoursViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* WorldHoursViewController.m */,
+				928D774711571BC600FC57B1 /* WHHourLayer.h */,
+				928D774811571BC600FC57B1 /* WHHourLayer.m */,
+				928F7177115B5A4D002075D4 /* Annotation */,
+				920CFB631157849C00ABDE44 /* WHMoreViewController.h */,
+				920CFB641157849C00ABDE44 /* WHMoreViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Zulu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3D49FBF5133689B300043562 /* Zulu_Prefix.pch */,
+				92B0706F115BD3BD005D47E1 /* logger.h */,
+				920D6E9F11599C0400A0DE3F /* Reachability.h */,
+				920D6EA011599C0400A0DE3F /* Reachability.m */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				3D57C6A31330220400155A78 /* config.h */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3DC9F2221351EFFB00554661 /* Default-Landscape~ipad.png */,
+				3DC9F2201351EFE500554661 /* Default-Portrait~ipad.png */,
+				3DC9F21E1351EFC500554661 /* Default@2x.png */,
+				3DC9F21A1351ED2D00554661 /* Default.png */,
+				3DC9F20B1351E4C100554661 /* Icon.png */,
+				3DC9F20C1351E4C100554661 /* Icon@2x.png */,
+				3DC9F20D1351E4C100554661 /* Zulu_50x50.png */,
+				3DC9F20E1351E4C100554661 /* Zulu_72x72.png */,
+				3DC9F20F1351E4C100554661 /* Zulu_512x512.png */,
+				3D49FBF213367D0E00043562 /* WHMoreViewController_iPad.xib */,
+				92B070DE115BDCE6005D47E1 /* arrowButton.png */,
+				92B070B1115BD8FF005D47E1 /* closeButton.png */,
+				2899E5210DE3E06400AC0155 /* WorldHoursViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				920CFB651157849C00ABDE44 /* WHMoreViewController.xib */,
+				8D1107310486CEB800E47090 /* Zulu-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DC9F2241351F32A00554661 /* FlurryLib */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				92A679C21155059400591E0E /* MapKit.framework */,
+				928D774E11571BEF00FC57B1 /* QuartzCore.framework */,
+				920D6EC611599D2700A0DE3F /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DC9F2241351F32A00554661 /* FlurryLib */ = {
+			isa = PBXGroup;
+			children = (
+				3DC9F2291351F32A00554661 /* FlurryAPI.h */,
+				3DC9F22A1351F32A00554661 /* libFlurry.a */,
+			);
+			path = FlurryLib;
+			sourceTree = "<group>";
+		};
+		928F7177115B5A4D002075D4 /* Annotation */ = {
+			isa = PBXGroup;
+			children = (
+				928D76CF115714CF00FC57B1 /* WHTimeAnnotation.h */,
+				928D76D0115714CF00FC57B1 /* WHTimeAnnotation.m */,
+				928F6FF7115B45F4002075D4 /* WHAnnotationView.h */,
+				928F6FF8115B45F4002075D4 /* WHAnnotationView.m */,
+				928F7071115B4A4E002075D4 /* WHAnnotationGestureRecognizer.h */,
+				928F7072115B4A4E002075D4 /* WHAnnotationGestureRecognizer.m */,
+			);
+			name = Annotation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Zulu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Zulu" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zulu;
+			productName = WorldHours;
+			productReference = 1D6058910D05DD3D006BFB54 /* Zulu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Zulu" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Zulu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* WorldHoursViewController.xib in Resources */,
+				920CFB671157849C00ABDE44 /* WHMoreViewController.xib in Resources */,
+				92B070B2115BD8FF005D47E1 /* closeButton.png in Resources */,
+				92B070DF115BDCE6005D47E1 /* arrowButton.png in Resources */,
+				3D49FBF313367D0E00043562 /* WHMoreViewController_iPad.xib in Resources */,
+				3DC9F2101351E4C100554661 /* Icon.png in Resources */,
+				3DC9F2111351E4C100554661 /* Icon@2x.png in Resources */,
+				3DC9F2121351E4C100554661 /* Zulu_50x50.png in Resources */,
+				3DC9F2131351E4C100554661 /* Zulu_72x72.png in Resources */,
+				3DC9F2141351E4C100554661 /* Zulu_512x512.png in Resources */,
+				3DC9F21B1351ED2D00554661 /* Default.png in Resources */,
+				3DC9F21F1351EFC500554661 /* Default@2x.png in Resources */,
+				3DC9F2211351EFE500554661 /* Default-Portrait~ipad.png in Resources */,
+				3DC9F2231351EFFC00554661 /* Default-Landscape~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* WHAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* WorldHoursViewController.m in Sources */,
+				928D76D1115714CF00FC57B1 /* WHTimeAnnotation.m in Sources */,
+				928D774911571BC600FC57B1 /* WHHourLayer.m in Sources */,
+				920CFB661157849C00ABDE44 /* WHMoreViewController.m in Sources */,
+				920D6EA111599C0400A0DE3F /* Reachability.m in Sources */,
+				928F6FF9115B45F4002075D4 /* WHAnnotationView.m in Sources */,
+				928F7073115B4A4E002075D4 /* WHAnnotationGestureRecognizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Zulu_Prefix.pch;
+				INFOPLIST_FILE = "Zulu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FlurryLib\"",
+				);
+				PRODUCT_NAME = Zulu;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Zulu_Prefix.pch;
+				INFOPLIST_FILE = "Zulu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FlurryLib\"",
+				);
+				PRODUCT_NAME = Zulu;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = armv7;
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = armv7;
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Zulu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Zulu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
